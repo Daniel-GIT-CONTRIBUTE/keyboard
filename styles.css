@@ -1,0 +1,156 @@
+body {
+  text-align: center;
+  background-color: #242424;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.set{
+  position: relative;
+}
+
+.key{
+  border-radius: 3%;
+}
+
+.white-set {
+  /* margin: 10% auto; */
+  position: absolute;
+  margin-top: 5%;
+  left: 5%;
+  right: 5%;
+}
+.black-set{
+  position:absolute;  
+  margin-top: 4.8%;
+  left: 5%;
+  right: 5%;
+}
+.white-key{
+  background: linear-gradient(to bottom,#e6e6e6, antiquewhite);
+  background-color: antiquewhite;
+}
+.black-key{
+  margin-right: 17.5px;
+  background: linear-gradient(to bottom, black, gray);
+}
+#k3, #k7, #k0 {
+  margin-right: 82px;
+}
+#k2{
+  margin-left: 79px
+}
+
+
+.white-key {
+  height:13rem;
+  width:4rem;
+  text-align: bottom;
+}
+.black-key{
+  height: 8rem;
+  width: 3rem;
+  background-color: black;
+  color: white;
+}
+h2{
+  position: relative;
+  top: 70px;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.2;
+}
+
+.red {
+  color: red;
+}
+
+footer{
+  position: relative;
+  top: 400px;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+@media(max-width: 950px){
+  .set{
+    position: relative;
+  }
+
+  .key{
+    border-radius: 3%;
+  }
+
+  .white-set {
+    /* margin: 10% auto; */
+    position: absolute;
+    margin-top: 5%;
+    left: 2%;
+    right: 2%;
+  }
+  .black-set{
+    position:absolute;  
+    margin-top: 4.8%;
+    left: 2%;
+    right: 2%;
+  }
+  .white-key{
+    background: linear-gradient(to bottom,#e6e6e6, antiquewhite);
+    background-color: antiquewhite;
+  }
+  .black-key{
+    margin-right: 8.75px;
+    background: linear-gradient(to bottom, black, gray);
+  }
+  #k3, #k7, #k0 {
+    margin-right: 43px;
+  }
+  #k2{
+    margin-left: 38.9px
+  }
+
+
+  .white-key {
+    height:6.5rem;
+    width:2rem;
+    text-align: bottom;
+  }
+  .black-key{
+    height: 4rem;
+    width: 1.5rem;
+    background-color: black;
+    color: white;
+  }
+  footer{
+    position: relative;
+    top: 300px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+  }
+  h2{
+    position: relative;
+    top: 30px;
+    font-size: 15px;
+    font-weight: 200;
+  }
+}
