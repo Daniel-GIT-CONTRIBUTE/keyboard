@@ -1,6 +1,6 @@
 var keyCount = document.querySelectorAll(".key").length
 for( var i = 0; i < keyCount; i++){
-    document.querySelectorAll(".key h2")[i].addEventListener("click", function(){
+    document.querySelectorAll(".key")[i].addEventListener("click", function(){
         var key = String(this.innerHTML);
         playSound(key);
         buttonAnimation(key);
@@ -8,16 +8,8 @@ for( var i = 0; i < keyCount; i++){
     });   
 };
 
-// for( var i = 0; i < keyCount; i++){
-//     document.querySelectorAll(".black-key h2")[i].addEventListener("click", function(){
-//         var key = String(this.innerHTML);q
-//         alert(key);
-//         playSound(key);
-//         buttonAnimation(key);
-        
-//     });   
-// };
 
+// document.querySelector(".key #kq").addEventListener("click", )
 
 
 document.addEventListener("keypress", function(event){
