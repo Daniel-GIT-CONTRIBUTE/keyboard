@@ -29,14 +29,14 @@ footer {
   /* margin: 10% auto; */
   position: absolute;
   margin-top: 5%;
-  left: 5%;
-  right: 5%;
+  left: 1%;
+  right: 1%;
 }
 .black-set{
   position:absolute;  
   margin-top: 4.8%;
-  left: 5%;
-  right: 5%;
+  left: 1%;
+  right: 1%;
 }
 .white-key{
   background: linear-gradient(to bottom,#e6e6e6, antiquewhite);
@@ -92,7 +92,7 @@ footer{
   font-weight: 400;
 }
 
-@media(max-width: 950px){
+@media(max-width: 540px){
   .set{
     position: relative;
   }
@@ -105,14 +105,14 @@ footer{
     /* margin: 10% auto; */
     position: absolute;
     margin-top: 5%;
-    left: 2%;
-    right: 2%;
+    left: 1%;
+    right: 1%;
   }
   .black-set{
     position:absolute;  
     margin-top: 4.8%;
-    left: 2%;
-    right: 2%;
+    left: 1%;
+    right: 1%;
   }
   .white-key{
     background: linear-gradient(to bottom,#e6e6e6, antiquewhite);
