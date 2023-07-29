@@ -24,6 +24,7 @@ footer {
   border-radius: 3%;
 }
 
+
 .white-set {
   /* margin: 10% auto; */
   position: absolute;
@@ -66,7 +67,7 @@ footer {
 }
 h2{
   position: relative;
-  top: 40px;
+  top: 50px;
 }
 
 .game-over {
@@ -149,9 +150,154 @@ footer{
   }
   h2{
     position: relative;
-    top: 0px;
+    top: 39px;
     font-size: 15px;
     font-weight: 200;
-
   }
+}
+
+
+
+.white-key{
+  font-size: 0px;
+}
+
+.c1::before{
+  content: "q"; /* The text you want to add on top of the button */
+  position: absolute;
+  top: -10px;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.d1::before{
+  content: "w"; /* The text you want to add on top of the button */
+  position: absolute;
+  top: -10px;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.e1::before{
+  content: "e"; /* The text you want to add on top of the button */
+  position: absolute;
+  top: -10px;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.f1::before{
+  content: "r"; /* The text you want to add on top of the button */
+  position: absolute;
+  top: -10px;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.g1::before{
+  content: "t"; /* The text you want to add on top of the button */
+  position: absolute;
+  top: -10px;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.a1::before{
+  content: "y"; /* The text you want to add on top of the button */
+  position: absolute;
+  top: -10px;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.b1::before{
+  content: "u"; /* The text you want to add on top of the button */
+  position: absolute;
+  top: -10px;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.c2::before{
+  content: "i"; /* The text you want to add on top of the button */
+  position: absolute;
+  top: -10px;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.d2::before{
+  content: "o"; /* The text you want to add on top of the button */
+  position: absolute;
+  top: -10px;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.e2::before{
+  content: "p"; /* The text you want to add on top of the button */
+  position: absolute;
+  top: -10px;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
 }
